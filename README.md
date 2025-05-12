@@ -1,53 +1,43 @@
+# 🐵 Monke Mod Manager
+![Monke Mod Manager](https://camo.githubusercontent.com/fb29c1b9ddfbd4d66870e779f806d8f80953e32d053ef2e4d569e4a5d27a80bc/68747470733a2f2f692e696d6775722e636f6d2f366d454942786d2e706e67)
 
+Monke Mod Manager is a simple and lightweight mod installer for **Gorilla Tag**.
 
+## ⚙️ Features
 
-# Monke Mod Manager
-![Monke Mod Manager Banner](https://i.ytimg.com/vi/tuvFYJDOvsc/hqdefault.jpg)
+- One-click mod installs
+- Auto-updates supported mods
+- Clean and intuitive interface
+- Community-driven mod list
 
-**Monke Mod Manager** is a simple and user-friendly tool for installing, updating, and managing mods for *Gorilla Tag* and *BONELAB*. It automates the modding process so you can focus on enjoying your game, not messing with files.
+## 🚀 How to Use
 
+1. **Download** the latest release from [Releases](https://github.com/kaktus0757/MonkeModManager/releases/download/1/MonkeModes.zip).
+2. Run `MonkeModManager.exe`.
+3. Select the mods you want.
+4. Click `Install / Update`.
 
-## 🚀 Getting Started
+That's it — mods will be installed into your Gorilla Tag directory!
 
-1. Download the latest `.exe` from the [Releases](https://github.com/kaktus0757/MonkeModManager/releases/download/1/MonkeModes.zip) tab
-2. Run `MonkeModManager.exe` (no installation required)
-3. The app will auto-detect the game path
-4. Select the mods you want and click **Install/Update**
+## 🛠 Supported Mods
 
+- MonkeMapLoader  
+- ComputerInterface  
+- CustomNotes  
+- And many more!
 
+> The list updates automatically when you run the app.
 
-## ✨ Features
-* 🔧 One-click install and update for supported mods
-* 🔍 Auto-detects game installation path
-* 🧰 Supports BepInEx and other frameworks
-* 🌐 Integrated with [Thunderstore](https://thunderstore.io)
-* 💾 Optionally backs up original game files
+## 📁 Installation Directory
 
+Monke Mod Manager automatically detects your Gorilla Tag install path.  
+If it doesn't, you can manually select it in the settings.
 
-> ⚠️ Internet connection required to fetch mod data from Thunderstore
+## 🙏 Credits
 
-## 📋 Requirements
+Created and maintained by the community.  
+Big thanks to all contributors and mod creators!
 
-* Windows 10 or 11
-* [.NET 6.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
-* Installed copy of *Gorilla Tag* or *BONELAB*
+---
 
-## 📁 Where Are My Mods?
-
-Mods are installed to:
-
-```
-%AppData%\..\LocalLow\Another Axiom\Gorilla Tag\Mods\
-```
-
-## ❓ FAQ
-
-**Q: Mods won’t load in-game!**
-A: Make sure BepInEx is installed, and the game hasn’t updated to break compatibility.
-
-**Q: Can I add custom mods manually?**
-A: Yes. Place them directly in the mod folder, or write a Thunderstore-style manifest for them.
-
-
-
-
+Feel free to fork or contribute 💚
